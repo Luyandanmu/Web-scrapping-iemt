@@ -7,6 +7,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 from sklearn import tree
+import requests
+from bs4 import BeautifulSoup
 
 def main():
     # Load the Iris dataset
