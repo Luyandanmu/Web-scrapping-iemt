@@ -11,7 +11,6 @@ import requests
 from bs4 import BeautifulSoup
 
 def main():
-    # Load the Iris dataset
     iris = load_iris()
     X = iris.data
     y = iris.target
